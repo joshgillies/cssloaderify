@@ -1,0 +1,35 @@
+{
+  "name": "cssloaderify",
+  "version": "1.0.0",
+  "description": "A CSS loader transform for Browserify.",
+  "main": "index.js",
+  "browser": "browser.js",
+  "dependencies": {
+    "css-modules-loader-core": "0.0.3",
+    "cssify": "^0.7.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "standard": "^3.11.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshgillies/css-moduleify.git"
+  },
+  "keywords": [
+    "css",
+    "modules",
+    "browserify",
+    "browserify-transform"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/css-moduleify/issues"
+  },
+  "homepage": "https://github.com/joshgillies/css-moduleify"
+}
